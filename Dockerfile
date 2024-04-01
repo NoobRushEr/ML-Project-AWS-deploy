@@ -14,4 +14,4 @@ RUN apt update && apt install awscli -y
 RUN pip install -r requirements.txt
 
 # Run the application
-CMD ["python3", "app.py"]
+CMD ["python3", "application.py"]
