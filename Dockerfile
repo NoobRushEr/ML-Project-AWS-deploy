@@ -1,7 +1,6 @@
 # Description: Dockerfile for the application
 # Author: Dipesh Ghag
-FROM python:3.10-alpine
-
+FROM python:3.10-slim-buster
 # Set the working directory
 WORKDIR /app
 
